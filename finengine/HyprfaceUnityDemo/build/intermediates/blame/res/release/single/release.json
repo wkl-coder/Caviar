@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\layout_button.xml.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\layout\\button.xml"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon_round.xml.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_app_icon.png.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi_app_banner.png.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\layout_activity_multi.xml.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\layout\\activity_multi.xml"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\mipmap-mdpi\\ic_launcher_background.png"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
+    },
+    {
+        "merged": "D:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon.xml.flat",
+        "source": "D:\\avatartest\\HyprfaceUnityDemo\\src\\main\\res\\mipmap-anydpi-v26\\app_icon.xml"
+    }
+]

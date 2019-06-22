@@ -1,0 +1,144 @@
+
+{
+	"buildFiles" : [ "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\avatartest\\HyprfaceUnityDemo\\finengine\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"arc_soft_spotlight-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "arc_soft_spotlight",
+			"buildType" : "release",
+			"output" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/../../libs/armeabi-v7a/libArcSoftSpotlight.so",
+			"toolchain" : "423535169"
+		},
+		"fin-engine-lib-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "fin-engine-lib",
+			"buildCommand" : "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\avatartest\\HyprfaceUnityDemo\\finengine\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target fin-engine-lib",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/glslutils.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finengine/main.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finengine/shaders.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finengine/GLContextHolder.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finrecorder/finrecorder.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finrecorder/FinRecorderHolder.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finrender/finrender.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/finrender/FinRenderHolder.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/facedetect/facedetector.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/facedetect/arcsoft/arcsoft.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/effects/effects.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/effects/faceswap/faceswap.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/effects/faceswap/FaceSwapper.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/effects/monalisa/monalisa.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/effects/monalisa/MonaLisaEffect.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				},
+				
+				{
+					"flags" : "  --target=armv7-none-linux-androideabi18 --gcc-toolchain=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/sysroot  -Dfin_engine_lib_EXPORTS -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\..\\..\\src\\main\\cpp\\include -ID:\\avatartest\\HyprfaceUnityDemo\\finengine\\src\\main\\cpp\\facedetect\\arcsoft\\inc  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mfpu=vfpv3-d16 -fno-addrsig -march=armv7-a -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++ -std=c++11 -frtti -fexceptions -Oz -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/cpp/opencv/xcv.cpp",
+					"workingDirectory" : "D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/release/armeabi-v7a"
+				}
+			],
+			"output" : "D:/avatartest/HyprfaceUnityDemo/finengine/build/intermediates/cmake/release/obj/armeabi-v7a/libfin-engine-lib.so",
+			"toolchain" : "423535169"
+		},
+		"lib_opencv-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_opencv",
+			"buildType" : "release",
+			"output" : "D:/avatartest/HyprfaceUnityDemo/finengine/src/main/../../libs/armeabi-v7a/libopencv_java3.so",
+			"toolchain" : "423535169"
+		}
+	},
+	"toolchains" : 
+	{
+		"423535169" : 
+		{
+			"cCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".fragments.SignUpFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="29dp"
+        android:textColor="#000000"
+        android:layout_marginTop="125dp"
+        android:text="What is your email
+address?" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="223dp"
+        android:hint="name@example.com"
+        android:textColorHint="#9e9e9e"
+        android:textSize="18sp"
+        android:singleLine="true"
+        android:id="@+id/username_edit"
+        android:layout_height="wrap_content" />
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="13dp"
+        android:textColor="#211642"
+        android:layout_marginTop="286dp"
+        android:text="You will need to verify your email address to enjoy the full benefits of our app." />
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/start_with"
+            android:layout_marginTop="416dp"
+            android:text="Confirm"
+            android:textColor="#ffffff"
+            android:id="@+id/button_confirm"
+            android:gravity="center"
+            android:textSize="16sp"
+            />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="7dp"
+        android:padding="15dp"
+        android:src="@drawable/icon_back_left"/>
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="57dp"
+        android:textSize="11sp"
+        android:text="By tapping Confirm, you will create an account and
+   agree to ours Terms of Service and Privacy Policy."
+        android:layout_marginRight="57dp"
+        android:textColor="#636363"
+        android:gravity="center"
+
+        android:layout_marginTop="477dp"/>
+</FrameLayout>

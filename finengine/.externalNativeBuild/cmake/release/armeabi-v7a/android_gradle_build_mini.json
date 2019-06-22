@@ -1,0 +1,26 @@
+{
+  "buildFiles": [
+    "D:\\Vrex\\Caviar\\finengine\\src\\main\\CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Vrex\\Caviar\\finengine\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target clean"
+  ],
+  "libraries": {
+    "arc_soft_spotlight-Release-armeabi-v7a": {
+      "artifactName": "arc_soft_spotlight",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Vrex\\Caviar\\finengine\\src\\main\\..\\..\\libs\\armeabi-v7a\\libArcSoftSpotlight.so"
+    },
+    "fin-engine-lib-Release-armeabi-v7a": {
+      "artifactName": "fin-engine-lib",
+      "buildCommand": "D:\\Android\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build D:\\Vrex\\Caviar\\finengine\\.externalNativeBuild\\cmake\\release\\armeabi-v7a --target fin-engine-lib",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Vrex\\Caviar\\finengine\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a\\libfin-engine-lib.so"
+    },
+    "lib_opencv-Release-armeabi-v7a": {
+      "artifactName": "lib_opencv",
+      "abi": "armeabi-v7a",
+      "output": "D:\\Vrex\\Caviar\\finengine\\src\\main\\..\\..\\libs\\armeabi-v7a\\libopencv_java3.so"
+    }
+  }
+}

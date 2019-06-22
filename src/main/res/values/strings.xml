@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Caviar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>、    <!-- TODO: Remove or change this placeholder text -->
+    <string name="camera">相机</string>
+    <string name="uplpad_picture">选择更换头像的方式</string>
+    <string name="Gallery">相册</string>
+    <string name="Feedback">"反馈"</string>
+    <string name="Review">"给KYDY好评"</string>
+    <string name="rate_us">给我们评价！</string>
+    <string name="feedbak_question">问题</string>
+    <string name="feedback_need">需求</string>
+    <string name="feedback_bug">程序错误报告</string>
+    <string name="feedback_other">其他</string>
+    <string name="topic">主题</string>
+    <string name="feedback_image">选择反馈附件（图片）</string>
+</resources>

@@ -1,0 +1,4 @@
+#Wed Mar 27 17:34:31 CST 2019
+base.0=D\:\\avatartest\\HyprfaceUnityDemo\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

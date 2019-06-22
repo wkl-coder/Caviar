@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".fragments.ShowVideoFragment">
+
+    <SurfaceView
+        android:id="@+id/video_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+
+    <ImageView
+        android:id="@+id/play_video"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_play_receiver_view"
+        />
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:layout_width="140dp"
+            android:layout_height="62dp"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="49dp"
+            android:background="@drawable/button_save_back"
+            android:text="Save"
+            android:gravity="center"
+            android:textColor="#463C9C"
+            android:textSize="18sp"
+            android:id="@+id/text_save"
+            android:layout_marginLeft="30dp"/>
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="140dp"
+        android:layout_height="62dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="49dp"
+        android:background="@drawable/button_share"
+        android:text="Share"
+        android:gravity="center"
+        android:id="@+id/text_share"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:layout_marginRight="30dp"/>
+</FrameLayout>

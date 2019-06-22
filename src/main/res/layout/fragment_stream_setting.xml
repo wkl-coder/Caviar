@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161335"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".fragments.StreamSettingFragment">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:layout_height="40dp">
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="34dp"
+                        android:layout_gravity="center_vertical"
+                        android:padding="8dp"
+                        android:id="@+id/left_icon"
+                        android:src="@drawable/icon_white_left"
+                        android:layout_marginLeft="65dp"/>
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="Setting"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/fps_frame"
+                    android:layout_height="60dp">
+
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="每秒传输帧数"
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="106dp"
+                        android:id="@+id/fps_title"
+                        android:gravity="center"
+                        />
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A0A0BC"
+                        android:text="60fps"
+                        android:textSize="16sp"
+                        android:id="@+id/fps_text"
+                        android:layout_marginTop="33dp"
+                        android:layout_marginLeft="106dp"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/pixel_frame"
+
+                    android:layout_height="60dp">
+
+
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="画面像素"
+                        android:id="@+id/pixel_title"
+
+                        android:textSize="16sp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="106dp"
+                        android:gravity="center"
+                        />
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A0A0BC"
+                        android:text="640p"
+                        android:textSize="16sp"
+                        android:id="@+id/pixel_text"
+                        android:layout_marginTop="33dp"
+                        android:layout_marginLeft="106dp"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="16dp"
+                    android:id="@+id/bit_frame"
+
+                    android:layout_height="60dp">
+
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffffff"
+                        android:text="最大比特率"
+                        android:textSize="16sp"
+                        android:id="@+id/kbps_title"
+
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="106dp"
+                        android:gravity="center"
+                        />
+                    <com.vrexlab.caviar.utils.RobotoTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A0A0BC"
+                        android:text="2000kbps"
+                        android:textSize="16sp"
+                        android:id="@+id/kbps_text"
+                        android:layout_marginTop="33dp"
+                        android:layout_marginLeft="106dp"
+                        android:gravity="center"
+                        />
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+</FrameLayout>

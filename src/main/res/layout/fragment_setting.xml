@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#161335"
+    android:clickable="true"
+    android:focusable="true"
+    tools:context=".fragments.SettingFragment">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_marginTop="16dp"
+    android:layout_height="40dp">
+    <ImageView
+        android:layout_width="38dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp"
+        android:id="@+id/left_icon"
+        android:src="@drawable/icon_white_left"
+        android:layout_marginLeft="65dp"/>
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:text="Setting"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+</FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:id="@+id/myAccount_frame"
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/icon_viewer"
+                android:layout_marginLeft="65dp"/>
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="My Account"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+             />
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A0A0BC"
+                android:text="Edit Username, Link your accounts"
+                android:textSize="16sp"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:id="@+id/twitch_ingest"
+
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="65dp"
+                android:src="@drawable/twich_ingest" />
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Twitch ingest"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A0A0BC"
+                android:text="Choose Twitch server"
+                android:textSize="16sp"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:id="@+id/broadcast_frame"
+
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/broadcast_icon"
+                android:layout_marginLeft="65dp"/>
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Broadcast"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A0A0BC"
+                android:text="Output resolution, fps, max bitrate"
+                android:textSize="16sp"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:id="@+id/about_frame"
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/about_icon"
+                android:layout_marginLeft="65dp"/>
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="About"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A0A0BC"
+                android:text="Info, credits, rate, share"
+                android:textSize="16sp"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:id="@+id/logout_frame"
+            android:layout_height="60dp">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/logout_icon"
+                android:layout_marginLeft="65dp"/>
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:text="Log Out"
+                android:textSize="16sp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+            <com.vrexlab.caviar.utils.RobotoTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#A0A0BC"
+                android:text="ILog out of Caviar"
+                android:textSize="16sp"
+                android:layout_marginTop="33dp"
+                android:layout_marginLeft="106dp"
+                android:gravity="center"
+                />
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
+
+</FrameLayout>

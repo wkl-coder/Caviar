@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EfEfEf"
+    android:clickable="true"
+    android:orientation="vertical"
+   >
+
+
+    <FrameLayout
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:background="#eeeeee">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="21dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical|bottom"
+            android:layout_marginBottom="9dp"
+            android:layout_marginLeft="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/back" />
+
+
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:id="@+id/topPanel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="14dp"
+            android:gravity="center"
+            android:text="@string/Feedback"
+            android:textColor="@android:color/black"
+            android:textSize="17sp" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:layout_marginTop="50dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/question_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+
+                android:layout_marginLeft="16dp"
+                android:text="@string/feedbak_question"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <View style="@style/view_h_n" />
+
+        <LinearLayout
+            android:id="@+id/need"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/need_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+                android:text="@string/feedback_need"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <View style="@style/view_h_n" />
+
+        <LinearLayout
+            android:id="@+id/bug"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/bug_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+
+                android:text="@string/feedback_bug"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+        <View style="@style/view_h_n" />
+
+        <LinearLayout
+            android:id="@+id/other"
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <TextView
+                android:id="@+id/other_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="16dp"
+
+                android:text="@string/feedback_other"
+                android:textColor="#000000" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

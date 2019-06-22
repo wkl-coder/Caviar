@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@drawable/splash_bg"
+    tools:context=".fragments.SelcectFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="51dp"
+        android:layout_marginRight="51dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="125dp"
+        android:gravity="center"
+        android:textSize="29dp"
+        android:text="Selcect the one
+you like" />
+
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="97dp"
+        android:background="@drawable/signup_later"
+        android:text="Let's start right away!"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:id="@+id/sure_button"
+        android:textColor="#6441A4"
+        android:layout_height="46dp" />
+</FrameLayout>

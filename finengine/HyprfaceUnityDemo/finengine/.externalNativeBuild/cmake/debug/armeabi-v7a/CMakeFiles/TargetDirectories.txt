@@ -1,0 +1,3 @@
+D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/fin-engine-lib.dir
+D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/avatartest/HyprfaceUnityDemo/finengine/.externalNativeBuild/cmake/debug/armeabi-v7a/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="#161335"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="22dp"
+        android:src="@drawable/close_button"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="54dp"
+        android:layout_marginLeft="54dp"
+        android:orientation="horizontal"
+        android:id="@+id/switch_linear"
+        android:layout_height="22dp">
+    <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:src="@drawable/on_air"/>
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="12dp"
+
+            android:text="Switch Modes"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="54dp"
+        android:orientation="horizontal"
+        android:id="@+id/display_linear"
+
+        android:layout_height="22dp">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/display_option"/>
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="12dp"
+            android:text="Display Option "/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="54dp"
+        android:id="@+id/setting_linear"
+
+        android:orientation="horizontal"
+        android:layout_height="22dp">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/setting"/>
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="12dp"
+            android:text="Setting"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="54dp"
+        android:orientation="horizontal"
+        android:id="@+id/support_linear"
+
+        android:layout_height="22dp">
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/support"/>
+        <com.vrexlab.caviar.utils.RobotoTextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="16sp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="12dp"
+            android:text="Support"/>
+    </LinearLayout>
+</LinearLayout>

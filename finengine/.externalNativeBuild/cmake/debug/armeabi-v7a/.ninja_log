@@ -1,0 +1,18 @@
+# ninja log v5
+46	853	0	CMakeFiles/fin-engine-lib.dir/cpp/finrecorder/FinRecorderHolder.cpp.o	531b69c699526354
+52	920	0	CMakeFiles/fin-engine-lib.dir/cpp/finengine/shaders.cpp.o	4d5906ff78e4b507
+24	926	0	CMakeFiles/fin-engine-lib.dir/cpp/finengine/GLContextHolder.cpp.o	8fc53a40ed603955
+863	1151	0	CMakeFiles/fin-engine-lib.dir/cpp/finrender/FinRenderHolder.cpp.o	ba8221c5c5c8c026
+57	1244	0	CMakeFiles/fin-engine-lib.dir/cpp/finrender/finrender.cpp.o	653e4af182dc03f0
+13	1250	0	CMakeFiles/fin-engine-lib.dir/cpp/finrecorder/finrecorder.cpp.o	b760b0f30e014045
+2	1609	0	CMakeFiles/fin-engine-lib.dir/cpp/glslutils.cpp.o	ef0ae9ae54e82e56
+92	2037	0	CMakeFiles/fin-engine-lib.dir/cpp/facedetect/arcsoft/arcsoft.cpp.o	77633a2483c28673
+19	3069	0	CMakeFiles/fin-engine-lib.dir/cpp/finengine/main.cpp.o	9739b0cc9501a223
+926	3440	0	CMakeFiles/fin-engine-lib.dir/cpp/effects/effects.cpp.o	cc14d1753bc40641
+920	3911	0	CMakeFiles/fin-engine-lib.dir/cpp/effects/faceswap/faceswap.cpp.o	1627c09eb4d0f326
+1244	3917	0	CMakeFiles/fin-engine-lib.dir/cpp/opencv/xcv.cpp.o	614310b013ce476b
+1251	4074	0	CMakeFiles/fin-engine-lib.dir/cpp/effects/monalisa/monalisa.cpp.o	5619165811403d2a
+1151	4123	0	CMakeFiles/fin-engine-lib.dir/cpp/effects/monalisa/MonaLisaEffect.cpp.o	9ef7dc66b456cf49
+39	4193	0	CMakeFiles/fin-engine-lib.dir/cpp/effects/faceswap/FaceSwapper.cpp.o	807aef49533bddf6
+64	4271	0	CMakeFiles/fin-engine-lib.dir/cpp/facedetect/facedetector.cpp.o	475bfc0143e24549
+4271	4600	0	D:/Vrex/Caviar/finengine/build/intermediates/cmake/debug/obj/armeabi-v7a/libfin-engine-lib.so	851a5d721ab1e08a

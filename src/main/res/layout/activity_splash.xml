@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    tools:context=".activitys.SplashActivity">
+
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#d9d9d9"
+        android:layout_gravity="bottom|center_horizontal"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:layout_marginBottom="41dp"
+        android:text="ⓒ 2019. VREX Lab. All rights reserved." />
+    <com.vrexlab.caviar.utils.RobotoTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="29sp"
+        android:layout_marginTop="111dp"
+        android:text="Avastar" />
+    <ImageView
+        android:layout_width="153dp"
+        android:layout_gravity="center"
+        android:src="@drawable/splash_logo"
+        android:layout_height="153dp" />
+</FrameLayout>

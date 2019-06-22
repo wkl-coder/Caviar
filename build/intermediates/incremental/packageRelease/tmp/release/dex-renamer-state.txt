@@ -1,0 +1,4 @@
+#Wed Jun 12 16:23:53 CST 2019
+base.0=D\:\\Vrex\\Caviar\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
